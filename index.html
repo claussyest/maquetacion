@@ -15,10 +15,9 @@
     <!-- nav menu -->
     <nav>
         <ul>
-            <li><a href="#">About Me</a></li> 
-            <li><a href="#">Work</a></li>   
-            <li><a target="_blank" nrel="noopener noreffer" href="https://github.com/claussyest">Github</a></li>    
-            <li><a href="#">Contact</a></li>    
+            <li><a href="#about">About Me</a></li> 
+            <li><a href="#work">Work</a></li>      
+            <li><a href="#contact">Contact</a></li>    
         </ul>
     </nav>
     <!-- page header -->
@@ -33,21 +32,25 @@
     
     <!-- about me section -->
     <section class="about container">
-        <h2>About Me</h2>
-        <img class="profile-img" src="images/IMG_20210406_095945.jpg" alt="Claudia">
-        <p>I am in my last year of the Computer Engineering Degree with a Computer Science mention.</p>
-        <p>I have worked as a Help-Desk Technician. Some of my tasks were management and resolution of incidents, development of tutorials and contact between suppliers and customers.</p>
-        <p>I feel a strong passion for processing, analysis and visualization of data. For this reason, I dedicate a great part of my time to inform and train myself in this field.
-        </p>
-        <p>I am a very efficient, organized, decisive person, with the ability to work under pressure. I love team working. My colleagues describe me as a methodical woman, who loves the well-done job.
+        <div id="about">
+            <h2>About Me</h2>
+            <img class="profile-img" src="images/IMG_20210406_095945.jpg" alt="Claudia">
+            <p>I am in my last year of the Computer Engineering Degree with a Computer Science mention.</p>
+            <p>I have worked as a Help-Desk Technician. Some of my tasks were management and resolution of incidents, development of tutorials and contact between suppliers and customers.</p>
+            <p>I feel a strong passion for processing, analysis and visualization of data. For this reason, I dedicate a great part of my time to inform and train myself in this field.
+            </p>
+            <p>I am a very efficient, organized, decisive person, with the ability to work under pressure. I love team working. My colleagues describe me as a methodical woman, who loves the well-done job.
             I learn very quickly and I am very proactive.</p>
+        </div>
+        
     </section>
     
     <!-- work section -->
     <section class="work container">
-        <h2>Work</h2>
-        <p>Some of my design projects:</p>
-        <div class="work-items">
+        <div id="work">
+            <h2>Work</h2>
+            <p>Some of my design projects:</p>
+            <div class="work-items">
             
             <!-- project1 -->
             <a target="_blank" rel="noopener no referrer" href="https://ibb.co/fQs1fnf"><img src="https://i.ibb.co/fQs1fnf/UJ1.png" alt="UJ1" >
@@ -64,22 +67,28 @@
             <div class="caption">Project Prototype Med Level</div>
             </a>
         </div>
+        </div>
+        
     </section>
 
     <!-- footer and contact -->
     <footer class="contact container">
-        <h2>Contact</h2>
-        <p>Fill that form:</p>
-        <form action="MAILTO: claussyest@gmail.com" method="Post" enctype="text/plain">
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>Fill that form:</p>
+            <form action="MAILTO: claussyest@gmail.com" method="Post" enctype="text/plain">
             <p><input type="text" placeholder="name" required></p>
             <p><input type="email" placeholder="email" required></p>
             <p><textarea placeholder="your message" required rows="5"></textarea></p>
             <p><button class="send">Send</button></p> 
-        </form>
-        <p>Or find me at:</p>
-        <div class="social">
+            </form>
+            <p>Or find me at:</p>
+            <div class="social">
             <a href="https://www.linkedin.com/in/claudia-reina-fajardo/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/claussyest"><i class="fab fa-github"></i></a>
           </div>
+        </div>
+        
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
